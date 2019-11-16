@@ -18,8 +18,9 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
+      <MinorVersionNr Value="1"/>
       <RevisionNr Value="1"/>
-      <BuildNr Value="26"/>
+      <BuildNr Value="28"/>
       <Language Value="0407"/>
     </VersionInfo>
     <BuildModes Count="4">
@@ -63,7 +64,7 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="LazarusBuildExtractor.bin"/>
+            <Filename Value="LazarusBuildExtractor-linux-x86_64.bin"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
@@ -90,7 +91,7 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="LazarusBuildExtractor.exe"/>
+            <Filename Value="LazarusBuildExtractor-win-x86_64.exe"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
